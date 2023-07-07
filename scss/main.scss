@@ -1,0 +1,27 @@
+*{
+margin: 0px;
+padding: 0px;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+transition: all 1s ease;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #fff;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+@import "header" ;
+@import "hero" ;
+@import "section2" ;
+@import "section3" ;
+@import "section4" ;
+@import "section5" ;
+@import "footer" ;

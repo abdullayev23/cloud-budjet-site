@@ -1,0 +1,32 @@
+.sc3-box{
+    margin-top: 100px;
+}
+
+.sc3 h1{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #000000;
+}
+.sc3 .box{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width:1160px) {
+    .sc3 .box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width:500px) {
+    .sc3-box{
+        margin-top: 50px;
+    }
+    .sc3 .box{
+        margin-top: 7px;
+    }
+}
